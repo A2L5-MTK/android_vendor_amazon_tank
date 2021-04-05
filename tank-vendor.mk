@@ -152,6 +152,11 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headset.csv:system/vendor/smartvolume/tank/wired_headset.csv
 
 PRODUCT_PACKAGES += \
+    AtvRemoteService \
+    GamepadPairingService \
+    GlobalKeyInterceptor \
     LeanbackIme \
     LeanbackLauncher \
-    SetupWraith
+    RemoteControlService \
+    SetupWraith \
+    TV
