@@ -150,3 +150,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/speaker.csv:system/vendor/smartvolume/tank/speaker.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headphone.csv:system/vendor/smartvolume/tank/wired_headphone.csv \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/wired_headset.csv:system/vendor/smartvolume/tank/wired_headset.csv
+
+PRODUCT_PACKAGES += \
+    LeanbackIme \
+    LeanbackLauncher \
+    SetupWraith
