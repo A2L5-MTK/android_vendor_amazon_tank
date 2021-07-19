@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
     vendor/amazon/tank/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
     vendor/amazon/tank/proprietary/bin/pq:system/bin/pq \
+    vendor/amazon/tank/proprietary/bin/rpmb_svc:system/bin/rpmb_svc \
     vendor/amazon/tank/proprietary/bin/thermal_manager:system/bin/thermal_manager \
     vendor/amazon/tank/proprietary/bin/thermald:system/bin/thermald \
     vendor/amazon/tank/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
