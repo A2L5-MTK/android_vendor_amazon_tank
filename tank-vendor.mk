@@ -47,7 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
     vendor/amazon/tank/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/amazon/tank/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/amazon/tank/proprietary/lib/drm/libdrmplayreadyplugin.so:system/lib/drm/libdrmplayreadyplugin.so \
     vendor/amazon/tank/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/amazon/tank/proprietary/lib/egl/libEGL_mali.so:system/lib/egl/libEGL_mali.so \
     vendor/amazon/tank/proprietary/lib/egl/libGLESv1_CM_mali.so:system/lib/egl/libGLESv1_CM_mali.so \
@@ -71,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
     vendor/amazon/tank/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
     vendor/amazon/tank/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
-    vendor/amazon/tank/proprietary/lib/lib_uree_mtk_video_secure_al.so:system/lib/lib_uree_mtk_video_secure_al.so \
     vendor/amazon/tank/proprietary/lib/libamazon_remotes.so:system/lib/libamazon_remotes.so \
     vendor/amazon/tank/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/amazon/tank/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
@@ -87,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/amazon/tank/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/amazon/tank/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
-    vendor/amazon/tank/proprietary/lib/libdrmplayreadydecryptor.so:system/lib/libdrmplayreadydecryptor.so \
     vendor/amazon/tank/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/amazon/tank/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
     vendor/amazon/tank/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
@@ -111,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/amazon/tank/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
     vendor/amazon/tank/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
-    vendor/amazon/tank/proprietary/lib/libplayready.so:system/lib/libplayready.so \
     vendor/amazon/tank/proprietary/lib/libqservice.so:system/lib/libqservice.so \
     vendor/amazon/tank/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/amazon/tank/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
@@ -129,13 +125,13 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware-test.bin:system/vendor/firmware/brcm/bcm43569a2-firmware-test.bin \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware.bin:system/vendor/firmware/brcm/bcm43569a2-firmware.bin \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2.nvm:system/vendor/firmware/brcm/bcm43569a2.nvm \
-    vendor/amazon/tank/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/amazon/tank/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/amazon/tank/proprietary/vendor/lib/drm/libdrmctaplugin.so:system/vendor/lib/drm/libdrmctaplugin.so \
+    vendor/amazon/tank/proprietary/vendor/lib/drm/libdrmmtkplugin.so:system/vendor/lib/drm/libdrmmtkplugin.so \
+    vendor/amazon/tank/proprietary/vendor/lib/lib_uree_mtk_modular_drm.so:system/vendor/lib/lib_uree_mtk_modular_drm.so \
+    vendor/amazon/tank/proprietary/vendor/lib/lib_uree_mtk_video_secure_al.so:system/vendor/lib/lib_uree_mtk_video_secure_al.so \
     vendor/amazon/tank/proprietary/vendor/lib/libdlb_converter.so:system/vendor/lib/libdlb_converter.so \
     vendor/amazon/tank/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-    vendor/amazon/tank/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/amazon/tank/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libdrmfpsplugin.so:system/vendor/lib/mediadrm/libdrmfpsplugin.so \
+    vendor/amazon/tank/proprietary/vendor/lib/libplayready.so:system/vendor/lib/libplayready.so \
     vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libplayreadydrmplugin.so:system/vendor/lib/mediadrm/libplayreadydrmplugin.so \
     vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/amazon/tank/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
