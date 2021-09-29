@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
     vendor/amazon/tank/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
     vendor/amazon/tank/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
+    vendor/amazon/tank/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/amazon/tank/proprietary/lib/libamazon_remotes.so:system/lib/libamazon_remotes.so \
     vendor/amazon/tank/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/amazon/tank/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
@@ -85,6 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libcvsd_mtk.so:system/lib/libcvsd_mtk.so \
     vendor/amazon/tank/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
     vendor/amazon/tank/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
+    vendor/amazon/tank/proprietary/lib/libdrmplayreadydecryptor.so:system/lib/libdrmplayreadydecryptor.so \
     vendor/amazon/tank/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
     vendor/amazon/tank/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
     vendor/amazon/tank/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
@@ -101,6 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libmsbc_mtk.so:system/lib/libmsbc_mtk.so \
     vendor/amazon/tank/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
     vendor/amazon/tank/proprietary/lib/libmtk_mali_user.so:system/lib/libmtk_mali_user.so \
+    vendor/amazon/tank/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
     vendor/amazon/tank/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
     vendor/amazon/tank/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
     vendor/amazon/tank/proprietary/lib/libnvram.so:system/lib/libnvram.so \
