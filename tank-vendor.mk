@@ -32,7 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
     vendor/amazon/tank/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
     vendor/amazon/tank/proprietary/etc/.tp/thermal.policy.conf:system/etc/.tp/thermal.policy.conf \
-    vendor/amazon/tank/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/amazon/tank/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/amazon/tank/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
     vendor/amazon/tank/proprietary/etc/bluetooth/bt_vendor.conf:system/etc/bluetooth/bt_vendor.conf \
@@ -123,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     vendor/amazon/tank/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     vendor/amazon/tank/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
+    vendor/amazon/tank/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
     vendor/amazon/tank/proprietary/vendor/firmware/BCM43569A2_001.003.004.1001.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd:system/vendor/firmware/BCM43569A2_001.003.004.1001.0000_Generic_UART_40MHz_fcbga_BU_AmazonTank.hcd \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware-test.bin:system/vendor/firmware/brcm/bcm43569a2-firmware-test.bin \
     vendor/amazon/tank/proprietary/vendor/firmware/brcm/bcm43569a2-firmware.bin:system/vendor/firmware/brcm/bcm43569a2-firmware.bin \
