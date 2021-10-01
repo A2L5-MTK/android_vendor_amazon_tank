@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/lib/libnvram_platform.so:system/lib/libnvram_platform.so \
     vendor/amazon/tank/proprietary/lib/libnvram_sec.so:system/lib/libnvram_sec.so \
     vendor/amazon/tank/proprietary/lib/libnvramagentclient.so:system/lib/libnvramagentclient.so \
+    vendor/amazon/tank/proprietary/lib/libplayready.so:system/lib/libplayready.so \
     vendor/amazon/tank/proprietary/lib/libqservice.so:system/lib/libqservice.so \
     vendor/amazon/tank/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
     vendor/amazon/tank/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
@@ -133,8 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/lib/lib_uree_mtk_video_secure_al.so:system/vendor/lib/lib_uree_mtk_video_secure_al.so \
     vendor/amazon/tank/proprietary/vendor/lib/libdlb_converter.so:system/vendor/lib/libdlb_converter.so \
     vendor/amazon/tank/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-    vendor/amazon/tank/proprietary/vendor/lib/libplayready.so:system/vendor/lib/libplayready.so \
-    vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libplayreadydrmplugin.so:system/vendor/lib/mediadrm/libplayreadydrmplugin.so \
     vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/amazon/tank/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
     vendor/amazon/tank/proprietary/vendor/smartvolume/tank/anlg_dock_headset.csv:system/vendor/smartvolume/tank/anlg_dock_headset.csv \
