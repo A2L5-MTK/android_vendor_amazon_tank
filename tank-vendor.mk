@@ -133,6 +133,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/tank/proprietary/vendor/lib/lib_uree_mtk_modular_drm.so:system/vendor/lib/lib_uree_mtk_modular_drm.so \
     vendor/amazon/tank/proprietary/vendor/lib/lib_uree_mtk_video_secure_al.so:system/vendor/lib/lib_uree_mtk_video_secure_al.so \
     vendor/amazon/tank/proprietary/vendor/lib/libdlb_converter.so:system/vendor/lib/libdlb_converter.so \
+    vendor/amazon/tank/proprietary/vendor/lib/libdlbdapstorage.so:system/vendor/lib/libdlbdapstorage.so \
     vendor/amazon/tank/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/amazon/tank/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/amazon/tank/proprietary/vendor/lib/soundfx/libswdap.so:system/vendor/lib/soundfx/libswdap.so \
